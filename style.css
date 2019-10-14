@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: grey;
+
+}
+
+.container {
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.header_top {
+    height: 300px;
+    border: white solid 10px;
+    margin-bottom: 5px;
+    background-image: url("https://www.eticamente.net/wp-content/uploads/2016/09/bosco-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.header_bottom {
+    height: 40px;
+    background-color: green;
+    border: white solid 3px;
+    text-align: center;
+    text-align-last: justify;
+    padding: 5px;
+    color: white;
+
+}
+
+main {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+main:after {
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+.sidebar {
+    width: 19%;
+    float: left;
+
+}
+
+.left {
+    background-color: white;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+
+}
+
+.right .widget {
+    height: auto;
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.main_content {
+    width: 60%;
+    background-color: white;
+    height: 200px;
+    float: left;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 5px;
+    margin-left:1px;
+    margin-right: 1px;
+
+}
+
+.header_top img {
+    object-fit: cover;
+    object-position: center;
+    width: 50%;
+
+}
+
+.mountain {
+    color: white;
+    font-size: 80px;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.testo_header {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.header_menu_bottom {
+    padding: 2px;
+    display: inline-block;
+
+}
+
+a:LINK {
+    text-decoration: none;
+
+}
+
+.rss {
+    color: green;
+    font-size: 25px;
+
+}
+.sidebar_title {
+    float: right;
+    font-size: 20px;
+    color: black;
+
+}
+
+h1 h2 {
+    font-size: 20px;
+    color: black;
+
+}
+
+.main_content_text {
+    font-size: 15px;
+    color: black;
+
+}
+
+footer {
+    background-color: white;
+    height: 80px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.footer_text {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+
+.footer_icon {
+    font-size: 40px;
+    text-align: center;
+    text-align-last: center;
+    text-align-last: justify;
+
+}
